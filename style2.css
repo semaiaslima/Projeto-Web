@@ -19,7 +19,7 @@ h2{
 }
 header {
     position: relative;
-    background-image: url(../ADOWEB/fundocabecalho.png);
+    background-image: url(../Projeto-Web/fundocabecalho.png);
     font-style: oblique;
     font-weight: bold;
     margin: 5px;
@@ -41,7 +41,7 @@ header {
     float: left;
 }
 .busca button {
-    background-image: url(../ADOWEB/busca.png);
+    background-image: url(../Projeto-Web/busca.png);
     background-repeat: no-repeat;
     border: none;
     width: 20px;
@@ -135,15 +135,15 @@ footer .container{
 }
 
 .social a[href*="facebook.com"]{
-    background-image: url(../ADOPW/facebook.png);
+    background-image: url(../Projeto-Web/facebook.png);
 }
 
 .social a[href*="twitter.com"]{
-    background-image: url(../ADOPW/twitter.png);
+    background-image: url(../Projeto-Web/twitter.png);
 }
 
 .social a[href*="plus.google.com"]{
-    background-image: url(../ADOPW/googleplus.png);
+    background-image: url(../Projeto-Web/googleplus.png);
 }
 
 .opções label{

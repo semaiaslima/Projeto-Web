@@ -5,16 +5,16 @@
 
     }
 
+    label[opção1]::after{
+        vertical-align: bottom;
+    }
+    
     .casa1 label {
-
         transition: box-shadow 0.7s;
         transform: scale(1.0);
         text-align: center;
-        display: inline-block;
         
-
-        
-    } */
+    } 
 
     .casa1{
         position: static;
@@ -22,21 +22,95 @@
     }
 
     .casa1 legend{
-        position: static;
+        position: absolute;
     }
 
     .casa1 label img{
-        position: absolute;
+        position: relative;
         top: 0;
         left: 0;
         max-width: 100%;
         box-shadow: 0 0 2px #333;
         transition: box-shadow 0.7s;
         transform: scale(1.0);
-        
+        float: left;
+        clear: left;
+        margin-top: 50px;
+        margin-bottom: 25px;
+
     }
 
      .casa1 label::after{
+        position: static;
+        float: left;
+    } 
+
+    .casa2 label {
+
+        transition: box-shadow 0.7s;
+        transform: scale(1.0);
+        text-align: center;
+    } 
+
+    .casa2{
+        position: static;
+        padding: 100;
+    }
+
+    /* .casa2 legend{
+        position: absolute;
+    } */
+
+    .casa2 label img{
+        position: relative;
+        top: 0;
+        left: 0;
+        max-width: 100%;
+        box-shadow: 0 0 2px #333;
+        transition: box-shadow 0.7s;
+        transform: scale(1.0);
+        float: left;
+        clear: left;
+        margin-bottom: 25px;
+
+    }
+
+     .casa2 label::after{
+        position: static;
+        float: left;
+    } 
+
+    .casa3 label {
+
+        transition: box-shadow 0.7s;
+        transform: scale(1.0);
+        text-align: center;
+    } 
+
+    .casa3{
+        position: static;
+        padding: 100;
+    }
+
+    /* .casa3 legend{
+        position: absolute;
+    } */
+
+    .casa3 label img{
+        position: relative;
+        top: 0;
+        left: 0;
+        max-width: 100%;
+        box-shadow: 0 0 2px #333;
+        transition: box-shadow 0.7s;
+        transform: scale(1.0);
+        float: left;
+        clear: left;
+        margin-bottom: 25px;
+
+    }
+
+     .casa3 label::after{
         position: static;
         float: left;
     } 
