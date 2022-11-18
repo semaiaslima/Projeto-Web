@@ -1,0 +1,48 @@
+@media (min-width: 630px){
+    .casas {
+        display: inline-block;
+        
+
+    }
+
+    .casa1 label {
+
+        transition: box-shadow 0.7s;
+        transform: scale(1.0);
+        text-align: center;
+        display: inline-block;
+        
+
+        
+    } */
+
+    .casa1{
+        position: static;
+        padding: 100;
+    }
+
+    .casa1 legend{
+        position: static;
+    }
+
+    .casa1 label img{
+        position: absolute;
+        top: 0;
+        left: 0;
+        max-width: 100%;
+        box-shadow: 0 0 2px #333;
+        transition: box-shadow 0.7s;
+        transform: scale(1.0);
+        
+    }
+
+     .casa1 label::after{
+        position: static;
+        float: left;
+    } 
+
+ 
+}
+
+
+    
